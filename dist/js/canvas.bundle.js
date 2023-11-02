@@ -176,7 +176,7 @@ var Ball = /*#__PURE__*/function () {
 var balls;
 function init() {
   balls = [];
-  for (var i = 0; i < 50; i++) {
+  for (var i = 0; i < 100; i++) {
     var radius = Object(_utils__WEBPACK_IMPORTED_MODULE_0__["randomIntFromRange"])(10, 20);
     var x = Object(_utils__WEBPACK_IMPORTED_MODULE_0__["randomIntFromRange"])(radius, canvas.width - radius);
     var y = Object(_utils__WEBPACK_IMPORTED_MODULE_0__["randomIntFromRange"])(0, canvas.height - radius);
